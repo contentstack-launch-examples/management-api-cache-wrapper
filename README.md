@@ -7,7 +7,7 @@ First, add a `.env` file to populate the following environment variables:
 ```
 CONTENTSTACK_API_KEY=<Stack API Key>
 CONTENTSTACK_MANAGEMENT_TOKEN=<Stack Management Token>
-HOST=<Base URL of the hosted app. If running locally, this will be localhost:3000>
+HOST=<Base URL of the hosted app. If running locally, this will be http://localhost:3000>
 ```
 
 Then, run the development server:

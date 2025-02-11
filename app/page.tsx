@@ -1,6 +1,6 @@
 async function fetchContentTypes() {
   try {
-    const response = await fetch(`http://${process.env.HOST}/api/content-types`);
+    const response = await fetch(`${process.env.HOST}/api/content-types`);
     return response.json();
   } catch (error) {
     console.error("Error fetching content types:", error);
