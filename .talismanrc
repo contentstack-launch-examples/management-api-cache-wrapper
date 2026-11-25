@@ -1,0 +1,5 @@
+fileignoreconfig:
+- filename: package-lock.json
+  ignore_detectors:
+  - filecontent
+version: '1.0'
